@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.nav1{
+    padding: 0px 40px;
+    width: 1840px;
+    height: 33px;
+    background-color: black;
+    font-family: Rubik,sans-serif;
+    color: #9c8e7f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-gauche{
+    display: flex;
+    flex-direction: row;
+}
+.nav-gauche img{
+    width: 29.84px;
+    height: 16px;
+    margin-right: 50px;
+}
+.btn-games button{
+    color: #9c8e7f;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.btn-games{
+    position: relative;
+}
+.btn-games button .sous-onglet{
+    display: none;
+}
+.btn-games button:hover .sous-onglet{
+    display: block;
+    display: flex;
+    max-width: none;
+    left: -120px;
+    flex-direction: row;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 20px;
+    width: 1920px;
+    height: 222px;
+    padding: 50px 50px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #414141;
+}
+.sous-onglet{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-evenly;
+}
+.sous-onglet a{
+    display: flex;
+    color: grey;
+    
+}
+.l2m{
+    display: flex;
+    flex-direction: column;
+}
+.logo-l2m{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-l2m img{
+    margin: 0;
+    width: 172px;
+    height: 47.3px;
+}
+.gw2{
+    display: flex;
+    flex-direction: column;
+}
+.logo-gw2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-gw2 img{
+    margin: 0;
+    width: 129px;
+    height: 88.03px;
+}
+.bs{
+    display: flex;
+    flex-direction: column;
+}
+.logo-bs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-bs img{
+    margin: 0;
+    width: 172px;
+    height: 78.41px;
+}
+.aion{
+    display: flex;
+    flex-direction: column;
+}
+.logo-aion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-aion img{
+    margin: 0;
+    width: 172px;
+    height: 60px;
+}
+.gw{
+    display: flex;
+    flex-direction: column;
+}
+.logo-gw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-gw img{
+    margin: 0;
+    width: 193.5px;
+    height: 49.16px;
+}
+.l2{
+    display: flex;
+    flex-direction: column;
+}
+.logo-l2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-l2 img{
+    margin: 0;
+    width: 172px;
+    height: 30.67px;
+}
+.nav-droite{
+    display: flex;
+    display: inline-block;
+}
+.btn-globe button{
+    color: #9c8e7f;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+.btn-globe{
+    position: relative;
+}
+.btn-globe button .sous-globe{
+    display: none;
+}
+.btn-globe button:hover .sous-globe{
+    display: block;
+    display: flex;
+    max-width: none;
+    left: -175px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    top: 20px;
+    width: 220px;
+    height: 281px;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #414141;
+}
+.titre-bresil{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+.titre-bresil img{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.titre-bccoin{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #9c8e7f;
+    font-size: 14px;
+}
+.titre-bccoin img{
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.titre-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #9c8e7f;
+    font-size: 14px;
+}
+.icon-info{
+    align-items: center;
+    margin-right: 8px;
+}
+#diviseur{
+    border-bottom: 1px solid #9c8e7f;
+    margin-bottom: 10px;
+}
+.drapeau{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+.drapeau img{
+    align-items: center;
+    width: 20px;
+    height: 12.5px;
+    margin-right: 8px;
+}
+.globe-line{
+    border-right: 1px solid #9c8e7f;
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+}
