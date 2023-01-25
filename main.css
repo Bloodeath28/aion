@@ -15,6 +15,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 0.1px solid #494949;
 }
 .nav-gauche{
     display: flex;
@@ -22,7 +23,7 @@
 }
 .nav-gauche img{
     width: 29.84px;
-    height: 16px;
+    height: 33px;
     margin-right: 50px;
 }
 .btn-games button{
@@ -31,6 +32,9 @@
     border: none;
     cursor: pointer;
     position: relative;
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+    height: 33px;
 }
 .btn-games{
     position: relative;
@@ -46,8 +50,8 @@
     flex-direction: row;
     position: absolute;
     background-color: rgb(0, 0, 0);
-    top: 20px;
-    width: 1920px;
+    top: 33px;
+    width: 1923px;
     height: 222px;
     padding: 50px 50px 0;
     box-sizing: border-box;
@@ -186,7 +190,6 @@
 }
 .nav-droite{
     display: flex;
-    display: inline-block;
 }
 .btn-globe button{
     color: #9c8e7f;
@@ -194,6 +197,7 @@
     border: none;
     cursor: pointer;
     position: relative;
+    height: 33px;
 }
 .btn-globe{
     position: relative;
@@ -210,7 +214,7 @@
     justify-content: space-evenly;
     position: absolute;
     background-color: rgb(0, 0, 0);
-    top: 20px;
+    top: 33px;
     width: 220px;
     height: 281px;
     padding: 20px 20px 0;
@@ -279,4 +283,153 @@
     display: inline-block;
     width: 1px;
     height: 12px;
+}
+.text-color{
+    color: #9c8e7f;
+    align-items: center;
+    font-size: 14px;
+    padding: 0px 16px;
+}
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    height: 80px;
+    width: 1920px;
+    background: linear-gradient(90deg,#000 0,rgba(0,0,0,.5));
+    color: rgb(211, 211, 194);
+    font-size: 20px;
+    align-items: center;
+    justify-content: first baseline;
+    z-index: 11;
+}
+.in-nav-gauch{
+    width: 1920px;
+}
+.logo-aion-nav img{
+    margin: 0 3em 0 45px;
+    height: auto;
+    width: 151px;
+}
+.in-nav-gauch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-game button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.game-btn{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(211, 211, 194);
+    align-items: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.btn-game button .parent-game{
+    display: none;
+    position: absolute;
+}
+.btn-game button:hover .parent-game{
+    display: flex;
+    max-width: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #326cb5;
+    top: 113px;
+    width: 250px;
+    height: 218px;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #414141;
+}
+.btn-game button:hover{
+    background-color: #326cb5;
+}
+.titre-navbar{
+    display: flex;
+    margin: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 80px;
+    color: rgb(211, 211, 194);
+    font-size: 16px;
+    font-weight: bold;
+}
+.titre-navbar:hover{
+    background-color: #326cb5;
+}
+#titre-navbar{
+    display: flex;
+    margin: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 80px;
+    color: #6eb3e7;
+    font-size: 16px;
+    font-weight: bold;
+}
+#titre-navbar:hover{
+    color: rgb(211, 211, 194);
+    background-color: #326cb5;
+}
+.titre-menu-nav{
+    display: flex;
+    color: #3cc9f5;
+}
+.titre-nav2{
+    display: flex;
+    color: #fff;
+}
+#titre-navbar2{
+    display: flex;
+    margin: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-shadow: 1px 0 0 #db4437, 0 1px 0 #db4437, -1px 0 0 #db4437, 0 -1px 0 #db4437;
+}
+.in-nav-droit{
+    display: flex;
+    display: block;
+    margin-left: 555px;
+    width: 318px;
+    height: 80px;
+    background-image: url(https://cdn.ncwest.com/aion/10132022-BBEB2BC34E930FA4/images/global/play-free-cta-lg.png);
+    text-align: center;
+} 
+.btn-jgm-text{
+    margin: 0;
+    border: 0;
+    display: flex;
+    display: inline-block;
+    margin-top: 24px;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+.page{
+    display: flex;
+    display: inline-block;
+    border: 0;
+    margin: 0;
+    background-color: #000;
+    height: 3628.88px;
+    width: 1920px;
 }
