@@ -577,22 +577,20 @@ body{
 .faetured-news-wrapper{
     display: flex;
     display: block;
-    margin: 0;
+    padding: 0;
+    margin: 0 auto;
     border: 0;
     position: relative;
     top: -6em;
     margin-bottom: -6em;
     z-index: 2;
-    padding: 0 7.5em;
+    padding: 0 100px;
     text-align: left;
-    width: 2400px;
-    margin: 0 auto;
-    max-width: 100%;
+    width: 1920px;
+    text-transform: uppercase;
 }
 .faetured-news-wrapper p{
-    display: inline-block;
     color: #fff;
-    text-transform: uppercase;
     font-family: Source Sans Pro,Arial,Helvetica;
 }
 p{
@@ -601,6 +599,12 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+.list-card{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .news-card{
     display: flex;
@@ -616,8 +620,109 @@ p{
     border-radius: 5px;
 }
 .thumb-card{
+    color: transparent;
     padding: 0;
     background-image: url(https://cdn.ncwest.com/cms/41cc5ymm/201109-an-news-thumb-unshackled-fate-new-zone.jpg);
+    height: 166.88px;
+    border-bottom-color: transparent;
+    width: 333.75px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+}
+.content-wrapper{
+    padding: 0;
+    padding: 20px;
+    height: 200.31px;
+    width: 333.75;
+    text-transform: none;
+    font-size: 24px;
+    color: white;
+}
+.news-card:hover{
+    padding: 0;
+    top: -10px;
+    background-color: rgb(41, 41, 41);
+}
+.content-wrapper:hover{
+    border-top: 5px green solid;
+}
+.separator{
+    color: rgb(2, 161, 2);
+    font-size: 17px;
+}
+.news-card-amazon{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    height: 422px;
+    width: 333.78px;
+    margin-bottom: 1em;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.thumb-card-amazon{
+    color: transparent;
+    padding: 0;
+    background-image: url(https://cdn.ncwest.com/cms/vfhnj50f/solorius-weapon-selection-box_internal_launcher_400x200.jpg);
+    height: 166.88px;
+    border-bottom-color: transparent;
+    width: 333.75px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+}
+.banner-classic{
+    display: inline-block;
+    background: #3e92a7;
+    margin-bottom: 10px;
+    height: 14px;
+    width: auto;
+    border-radius: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    margin-right: 5px;
+    font-family: AdelonBook,'Times New Roman', Times, serif;
+}
+.update-amazon{
+    color: rgb(253, 253, 253);
+    font-size: 17px;
+}
+.news-card-amazon:hover{
+    padding: 0;
+    top: -10px;
+    background-color: rgb(41, 41, 41);
+}
+.thumb-card-sales{
+    color: transparent;
+    padding: 0;
+    background-image: url(https://cdn.ncwest.com/cms/k1ul23nq/230116-anc-news-thumb-daeva-pass-s20-black-tiger-1.jpg);
+    height: 166.88px;
+    border-bottom-color: transparent;
+    width: 333.75px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+}
+.update-sales{
+    color: rgb(141, 43, 43);
+    font-size: 17px;
+}
+.thumb-card-sale{
+    color: transparent;
+    padding: 0;
+    background-image: url(https://cdn.ncwest.com/cms/ayyg0fa5/181106-an-news-thumb-nov-store-update.jpg);
     height: 166.88px;
     border-bottom-color: transparent;
     width: 333.75px;
