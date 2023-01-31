@@ -579,12 +579,10 @@ body{
     display: block;
     padding: 0;
     margin: 0 auto;
-    border: 0;
     position: relative;
-    top: -6em;
+    top: -150px;
     margin-bottom: -6em;
     z-index: 2;
-    padding: 0 100px;
     text-align: left;
     width: 1920px;
     text-transform: uppercase;
@@ -599,6 +597,10 @@ p{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+#title-news{
+    width: 500px;
+    padding-left: 115px;
 }
 .list-card{
     display: flex;
@@ -644,7 +646,7 @@ p{
 .news-card:hover{
     padding: 0;
     top: -10px;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(6, 5, 15);
 }
 .content-wrapper:hover{
     border-top: 5px green solid;
@@ -700,7 +702,7 @@ p{
 .news-card-amazon:hover{
     padding: 0;
     top: -10px;
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(6, 5, 15);
 }
 .thumb-card-sales{
     color: transparent;
@@ -731,4 +733,52 @@ p{
     background-repeat: no-repeat;
     border-bottom: 5px;
     border-bottom-style: solid;
+}
+.all-news-btn{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    margin: 2em auto;
+    justify-content: center;
+}
+.all-news-btn:hover{
+    color: #74a7e6;
+}
+.full-video-bg{
+    position: absolute;
+    width: 1920px;
+}
+.logo-aionClassic{
+    position: relative;
+    width: 690px;
+    height: auto;
+    top: 160px;
+    left: 32.5%;
+}
+.content-aion-classic{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 24px;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%);
+    top: 240px;
+}
+.content-aion-classic p{
+    font-size: 24px;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    width: 650px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.4;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%);
+}
+.btn-playFree{
+    display: flex;
+    margin-top: 45PX;
+    background: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/desktop/classic/v2/btn_main_01.png) no-repeat 50%100%;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
 }
