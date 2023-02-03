@@ -752,8 +752,8 @@ p{
     position: relative;
     width: 690px;
     height: auto;
-    z-index: 165;
-    left: 32.5%;
+    z-index: 148;
+    left: 31.5%;
     bottom: 900px;
 }
 .content-aion-classic{
@@ -783,6 +783,9 @@ p{
     align-items: center;
     font-size: 32px;
 }
+.block-theme-aion{
+    display: flex;
+}
 .faq-server-aion{
     position: relative;
     background-image: url(https://cdn.ncwest.com/cms/hwck3lpp/210802-tile-half-anc-server-merge-notice.jpg);
@@ -797,6 +800,8 @@ p{
 }
 .faq-server-aion h1{
     font-size: 50px;
+    width: 824px;
+    height: 100px;
     padding-top: 50px;
     padding-left: 100px;
 }
@@ -818,4 +823,131 @@ p{
     margin-left: 100px;
     width: 275px;
     height: 50px;
+    background-color: rgba(0,0,0,.5);
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.faq-server-aion:hover h1{
+    color: white;
+    border-radius: 10px;
+    background: webkit-gradient( linear, left,top,right top,from(180deg,#b79e70 0,rgba(183, 159, 113, 0)));
+    background: linear-gradient(180deg,#b79e70 0,rgba(183, 159, 113, 0));
+    filter:
+    progid:DXImageTransform.Microsoft.gradient(startColorstr=grad-gold,endColorstr=grad-gold,GradientType=0);
+}
+.faq-server-aion:hover .btn-learn-aion{
+    background: #3ad1dd;
+}
+.buy-coin{
+    position: relative;
+    background-image: url(https://cdn.ncwest.com/cms/o0wgflel/181024-tile-half-black-cloud-coin_cp0.jpg);
+    height: 600px;
+    width: 924px;
+    bottom: 480px;
+    margin: 0 20px;
+    border-radius: 10px;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    color: #fff;
+    cursor: pointer;
+}
+.buy-coin h1{
+    font-size: 50px;
+    width: 824px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.buy-coin p{
+    font-size: 18px;
+    padding-left: 100px;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.buy-coin:hover h1{
+    color: white;
+    border-radius: 10px;
+    background: webkit-gradient( linear, left,top,right top,from(180deg,#b79e70 0,rgba(183, 159, 113, 0)));
+    background: linear-gradient(180deg,#b79e70 0,rgba(183, 159, 113, 0));
+    filter:
+    progid:DXImageTransform.Microsoft.gradient(startColorstr=grad-gold,endColorstr=grad-gold,GradientType=0);
+}
+.buy-coin:hover .btn-learn-aion{
+    background: #3ad1dd;
+}
+.communoty-aion{
+    display: flex;
+    margin: 0 20px;
+    margin-top: -460px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-image: url(https://cdn.ncwest.com/cms/dnff2jhz/181024-title-full-aion-community.jpg);
+    height: 600px;
+    width: 1880px;
+    color: #fff;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%);
+    flex-direction: column;
+    cursor: pointer;
+}
+.communoty-aion h2{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 50px;
+}
+.communoty-aion p{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 18px;
+}
+.btn-communoty-aion{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: block;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 275px;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.content-communoty-aion{
+    height: 600px;
+    width: 1000px;
+}
+.communoty-aion:hover .content-communoty-aion{
+    border-radius: 10px;
+    background: webkit-gradient( linear, left,top,right top,from(180deg,#b79e70 0,rgba(183, 159, 113, 0)));
+    background: linear-gradient(90deg,#b79e70 0,rgba(183, 159, 113, 0));
+    filter:
+    progid:DXImageTransform.Microsoft.gradient(startColorstr=grad-gold,endColorstr=grad-gold,GradientType=0);
+}
+.communoty-aion:hover .btn-communoty-aion{
+    background-color: #3ad1dd;
+}
+.play-free-now{
+    display: flex;
+    background-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/global/footer/footer-bg.jpg);
+    height: 680px;
+    width: 1920px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-play-free-aion{
+    color: #fff;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    border-radius: 30px;
+    font-size: 36px;
+    height: 106px;
+    width: 410px;
+    padding: 15px 0;
+    text-align: center;
+    background-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/global/play-free-cta-lg.png);
+    background-position: 0;
+    background-repeat: no-repeat;
 }
