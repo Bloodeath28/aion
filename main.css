@@ -790,9 +790,8 @@ p{
     position: relative;
     background-image: url(https://cdn.ncwest.com/cms/hwck3lpp/210802-tile-half-anc-server-merge-notice.jpg);
     height: 600px;
-    width: 924px;
+    width: 905px;
     bottom: 480px;
-    margin: 0 20px;
     border-radius: 10px;
     font-family: Source Sans Pro,Arial,Helvetica;
     color: #fff;
@@ -800,7 +799,7 @@ p{
 }
 .faq-server-aion h1{
     font-size: 50px;
-    width: 824px;
+    width: 805px;
     height: 100px;
     padding-top: 50px;
     padding-left: 100px;
@@ -841,7 +840,7 @@ p{
     position: relative;
     background-image: url(https://cdn.ncwest.com/cms/o0wgflel/181024-tile-half-black-cloud-coin_cp0.jpg);
     height: 600px;
-    width: 924px;
+    width: 905px;
     bottom: 480px;
     margin: 0 20px;
     border-radius: 10px;
@@ -851,7 +850,7 @@ p{
 }
 .buy-coin h1{
     font-size: 50px;
-    width: 824px;
+    width: 805px;
     height: 100px;
     padding-top: 50px;
     padding-left: 100px;
@@ -932,11 +931,12 @@ p{
 .play-free-now{
     display: flex;
     background-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/global/footer/footer-bg.jpg);
-    height: 680px;
+    height: 670px;
     width: 1920px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-bottom: 7px solid #269ca6;
 }
 .btn-play-free-aion{
     color: #fff;
@@ -953,7 +953,7 @@ p{
 .btn-play-free-aion:hover{
     background: #2d7ff8;
     background: -webkit-gradient(linear,left top,left bottom,from(#9bc1fa),to(#1d418d));
-    background: linear-gradient(145deg,#9bc1fa 0,#1d418d);
+    background: linear-gradient(135deg,#9bc1fa 0,#2d7ff8);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=clear-blue,endColorstr=windows-blue,GradientType=0);
     border-color: #2d7ff8;
 }
@@ -965,41 +965,36 @@ p{
     text-transform: uppercase;
 }
 .social a{
+    display: inline-block;
     margin: 0 2.5px;
-}
-.social-fb{
-    display: inline-block;
     top: 15px;
     height: 60px;
     width: 60px;
+    border-radius: 7.5px;
     position: relative;
     text-align: center;
     line-height: 65px;
 }
-.social-twitter{
-    display: inline-block;
-    top: 15px;
-    height: 60px;
-    width: 60px;
-    position: relative;
-    text-align: center;
-    line-height: 65px;
+.social-fb:hover{
+    background: #3b5998;
 }
-.social-twitch{
-    display: inline-block;
-    top: 15px;
-    height: 60px;
-    width: 60px;
-    position: relative;
-    text-align: center;
-    line-height: 65px;
+.social-twitter:hover{
+    background: #1da1f2;
 }
-.social-youtube{
-    display: inline-block;
-    top: 15px;
-    height: 60px;
-    width: 60px;
-    position: relative;
+.social-twitch:hover{
+    background: #6441a4;
+}
+.social-youtube:hover{
+    background: red;
+}
+#footer{
+    background-color: #000;
     text-align: center;
-    line-height: 65px;
+}
+.aion-dp{
+    padding: 70px 0 40px;
+}
+.esrb{
+    display: block;
+    margin: 50px auto 0;
 }
