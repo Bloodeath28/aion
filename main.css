@@ -941,21 +941,65 @@ p{
 .btn-play-free-aion{
     color: #fff;
     font-family: le-monde-livre-std,trajan-pro-3,serif;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 36px;
     height: 106px;
     width: 410px;
-    padding: 15px 0;
     text-align: center;
     background-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/global/play-free-cta-lg.png);
     background-position: 0;
     background-repeat: no-repeat;
 }
-.faq-server-aion:hover h1{
-    color: white;
-    border-radius: 10px;
-    background: webkit-gradient( linear, left,top,right top,from(180deg,#b79e70 0,rgba(183, 159, 113, 0)));
-    background: linear-gradient(180deg,#b79e70 0,rgba(183, 159, 113, 0));
-    filter:
-    progid:DXImageTransform.Microsoft.gradient(startColorstr=grad-gold,endColorstr=grad-gold,GradientType=0);
+.btn-play-free-aion:hover{
+    background: #2d7ff8;
+    background: -webkit-gradient(linear,left top,left bottom,from(#9bc1fa),to(#1d418d));
+    background: linear-gradient(145deg,#9bc1fa 0,#1d418d);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=clear-blue,endColorstr=windows-blue,GradientType=0);
+    border-color: #2d7ff8;
+}
+.social{
+    padding-top: 100px;
+    color: #ffffff;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.social a{
+    margin: 0 2.5px;
+}
+.social-fb{
+    display: inline-block;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    line-height: 65px;
+}
+.social-twitter{
+    display: inline-block;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    line-height: 65px;
+}
+.social-twitch{
+    display: inline-block;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    line-height: 65px;
+}
+.social-youtube{
+    display: inline-block;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    text-align: center;
+    line-height: 65px;
 }
