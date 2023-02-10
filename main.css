@@ -299,12 +299,12 @@ body{
    min-height: 100%;
    max-width: 100%;
 }
-#navbar2{
+.navbar2{
     display: flex;
     flex-direction: row;
     font-family: Source Sans Pro,Arial,Helvetica;
     height: 80px;
-    width: 1920px;
+    width: 100%;
     background: linear-gradient(90deg,#000 0,rgba(0,0,0,.5));
     color: rgb(211, 211, 194);
     font-size: 20px;
@@ -354,9 +354,17 @@ body{
     top: 80px;
     width: 250px;
     height: 218px;
-    padding: 20px 20px 0;
+    
     box-sizing: border-box;
     border-bottom: 1px solid #414141;
+}
+.titre-nav2{
+    display: flex;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+.titre-nav2:hover{
+    border-left: 4px solid white;
 }
 .btn-game button:hover{
     background-color: #326cb5;
@@ -393,16 +401,13 @@ body{
     background-color: #326cb5;
 }
 #titre-navbar2:hover{
-    color: rgb(211, 211, 194);
+    color: rgb(194, 207, 211);
     background-color: #326cb5;
 }
 .titre-menu-nav{
     display: flex;
-    color: #3cc9f5;
-}
-.titre-nav2{
-    display: flex;
-    color: #fff;
+    color: #86edff;
+    padding: 10px 10px 10px 10px;
 }
 #titre-navbar2{
     display: flex;
@@ -425,8 +430,8 @@ body{
     height: 80px;
     background-image: url(https://cdn.ncwest.com/aion/10132022-BBEB2BC34E930FA4/images/global/play-free-cta-lg.png);
     text-align: center;
-} 
-.btn-jgm-text{
+}
+#btn-jgm-text{
     margin: 0;
     border: 0;
     display: flex;
@@ -447,7 +452,7 @@ body{
     backface-visibility: hidden;
     top: -80px;
     left: 0;
-    width: 1920px;
+    width: 100%;
     height: 820px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -993,6 +998,10 @@ p{
     margin: 50px auto 50px;
 }
 .ncsoft-dp-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px 40px;
     height: 28px;
     width: 1840px;
@@ -1019,4 +1028,11 @@ p{
     font-family: Rubik,sans-serif;
     font-size: 14px;
     color: #9c8e7f;
+}
+.ncsoft-dp-right a{
+    padding: 0 16px;
+    color: #9c8e7f;
+}
+.ncsoft-dp-right a:hover{
+    color: #3ad1dd;
 }
