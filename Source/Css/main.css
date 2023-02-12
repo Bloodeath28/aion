@@ -1,0 +1,1039 @@
+@font-face {
+    font-family:"le-monde-livre-std";
+    src:url("https://use.typekit.net/af/513e79/00000000000000003b9b28e7/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/513e79/00000000000000003b9b28e7/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/513e79/00000000000000003b9b28e7/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #000;
+}
+#nav1{
+    width: 100%;
+    height: 33px;
+    background-color: black;
+    font-family: Rubik,sans-serif;
+    color: #9c8e7f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #494949;
+}
+.nav-gauche{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.nav-gauche img{
+    width: 29.84px;
+    margin: auto 50px auto 40px;
+}
+.btn-games{
+    position: relative;
+}
+.btn-games button{
+    color: #9c8e7f;
+    background-color: transparent;
+    border: none;
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+    height: 33px;
+}
+.btn-games button .sous-onglet{
+    display: none;
+}
+.btn-games button:hover .sous-onglet{
+    display: block;
+    display: flex;
+    max-width: none;
+    left: -120px;
+    flex-direction: row;
+    position: absolute;
+    z-index: 150;
+    background-color: rgb(0, 0, 0);
+    top: 33px;
+    width: 1903px;
+    height: 222px;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #414141;
+}
+.sous-onglet{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-evenly;
+}
+.sous-onglet a{
+    display: flex;
+    color: grey;
+    
+}
+#l2m{
+    display: flex;
+    flex-direction: column;
+}
+.logo-l2m{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-l2m img{
+    margin: 0;
+    width: 172px;
+    height: 47.3px;
+}
+#gw2{
+    display: flex;
+    flex-direction: column;
+}
+.logo-gw2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-gw2 img{
+    margin: 0;
+    width: 129px;
+    height: 88.03px;
+}
+#bs{
+    display: flex;
+    flex-direction: column;
+}
+.logo-bs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-bs img{
+    margin: 0;
+    width: 172px;
+    height: 78.41px;
+}
+#aion{
+    display: flex;
+    flex-direction: column;
+}
+.logo-aion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-aion img{
+    margin: 0;
+    width: 172px;
+    height: 60px;
+}
+#gw{
+    display: flex;
+    flex-direction: column;
+}
+.logo-gw{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-gw img{
+    margin: 0;
+    width: 193.5px;
+    height: 49.16px;
+}
+#l2{
+    display: flex;
+    flex-direction: column;
+}
+.logo-l2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 215px;
+    height: 135px;
+    background-color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+}
+.logo-l2 img{
+    margin: 0;
+    width: 172px;
+    height: 30.67px;
+}
+.btn-globe button{
+    color: #9c8e7f;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    height: 33px;
+}
+.btn-globe{
+    position: relative;
+}
+.btn-globe button .sous-globe{
+    display: none;
+}
+.btn-globe button:hover .sous-globe{
+    display: flex;
+    max-width: none;
+    left: -85px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    z-index: 160;
+    background-color: rgb(0, 0, 0);
+    width: 220px;
+    height: 281px;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid #414141;
+}
+#titre-bresil{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+.dp-bresil{
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.titre-bccoin{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #9c8e7f;
+    font-size: 14px;
+}
+.titre-bccoin img{
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.titre-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #9c8e7f;
+    font-size: 14px;
+}
+.icon-info{
+    align-items: center;
+    margin-right: 8px;
+}
+#diviseur{
+    border-bottom: 1px solid #9c8e7f;
+    margin-bottom: 10px;
+}
+#drapeau{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+}
+.logo-drapeau img{
+    align-items: center;
+    width: 20px;
+    height: 12.5px;
+    margin-right: 8px;
+}
+.globe-line{
+    border-right: 1px solid #9c8e7f;
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+}
+.text-color{
+    color: #9c8e7f;
+    align-items: center;
+    font-size: 14px;
+    padding: 0px 16px;
+}
+#next{
+   overflow-x: visible;
+   height: auto;
+   width: 100%;
+   min-height: 100%;
+   max-width: 100%;
+}
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(90deg,#000 0,rgba(0,0,0,.5));
+    color: rgb(211, 211, 194);
+    font-size: 20px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 149;
+}
+.logo-aion-nav img{
+    margin: 0 3em 0 45px;
+    height: auto;
+    width: 151px;
+}
+#in-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-game button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.game-btn{
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(211, 211, 194);
+    align-items: center;
+    vertical-align: middle;
+    width: 100px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.btn-game button .parent-game{
+    display: none;
+    position: relative;
+}
+.btn-game button:hover .parent-game{
+    display: flex;
+    max-width: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #326cb5;
+    top: 80px;
+    width: 250px;
+    height: 218px;
+    
+    box-sizing: border-box;
+    border-bottom: 1px solid #414141;
+}
+.titre-nav2{
+    display: flex;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+}
+.titre-nav2:hover{
+    border-left: 4px solid white;
+}
+.btn-game button:hover{
+    background-color: #326cb5;
+}
+.titre-navbar{
+    display: flex;
+    margin: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 80px;
+    color: rgb(211, 211, 194);
+    font-size: 16px;
+    font-weight: bold;
+}
+.titre-navbar:hover{
+    background-color: #326cb5;
+}
+#titre-navbar{
+    display: flex;
+    margin: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 80px;
+    color: #6eb3e7;
+    font-size: 16px;
+    font-weight: bold;
+}
+#titre-navbar:hover{
+    color: rgb(211, 211, 194);
+    background-color: #326cb5;
+}
+#titre-navbar2:hover{
+    color: rgb(194, 207, 211);
+    background-color: #326cb5;
+}
+.titre-menu-nav{
+    display: flex;
+    color: #86edff;
+    padding: 10px 10px 10px 10px;
+}
+#titre-navbar2{
+    display: flex;
+    margin: 0;
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    width: 114px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f0f0f0;
+    text-shadow: 1px 0 0 #db4437, 0 1px 0 #db4437, -1px 0 0 #db4437, 0 -1px 0 #db4437;
+}
+.in-nav-droit{
+    display: flex;
+    display: block;
+    margin-left: 555px;
+    width: 318px;
+    height: 80px;
+    background-image: url(https://cdn.ncwest.com/aion/10132022-BBEB2BC34E930FA4/images/global/play-free-cta-lg.png);
+    text-align: center;
+}
+#btn-jgm-text{
+    margin: 0;
+    border: 0;
+    display: flex;
+    display: inline-block;
+    margin-top: 24px;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
+.carousel-slide-background{
+    display: flex;
+    display: block;
+    position: relative;
+    background-image: url(https://cdn.ncwest.com/cms/gnbi0wxv/211201-an-news-header-winter-wonderland-event-banners.jpg);
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 820px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.carousel-hero-slide-background{
+    display: flex;
+    display: block;
+    position: relative;
+    background-image: url(https://cdn.ncwest.com/cms/gnbi0wxv/211201-an-news-header-winter-wonderland-event-banners.jpg);
+    z-index: 0;
+    opacity: 1;
+    -webkit-mask-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/masks/inkmask_bottomleft-256.ebebd471.png);
+    mask-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/masks/inkmask_bottomleft-256.ebebd471.png);
+    -webkit-mask-size: 3300% 100%;
+    mask-size: 3300% 100%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-origin: border-box;
+    mask-origin: border-box;
+    mask-type: luminance;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-animation-name: maskUp;
+    animation-name: maskUp;
+    -webkit-animation-timing-function: steps(32);
+    animation-timing-function: steps(32);
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-transition: .3s;
+    transition: .3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.carousel-slide-content{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    top: 48%;
+    z-index: 145;
+    color: rgb(236, 236, 236);
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-shadow: 1px 1px 1px rgb(0, 0, 50%);
+    line-height: 1;
+    left: 130px;
+    margin-left: 0;
+    text-align: left;
+}
+.carousel-slide-content-title{
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 70px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    letter-spacing: 1.5px;
+    line-height: 1.07;
+    margin-bottom: 5px;
+}
+.carousel-hero-slide-content-summary{
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    font-size: 18px;
+}
+.carousel-slide-content-buttom{
+    padding-top: 25px;
+    position: absolute;
+    top: 50px;
+    width: 237.56px;
+    height: 20px; 
+}
+.carousel-slide-content-buttom{
+    border: 0;
+    position: relative;
+    z-index: 160;
+    color: #fff;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    cursor: pointer;
+    padding: 15px 40px;
+    font-size: 14px;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    text-transform: uppercase;
+    opacity: 1;
+    white-space: nowrap;
+    transition: color .3s;
+    background: rgba(0,0,0,.5);
+}
+.buttom-carousel-slide-content{
+    position: absolute;
+    flex-direction: row;
+    margin-top: 17.5px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.carousel-slide-content-buttom:hover{
+    background-color: #3ccaf596;
+}
+.faetured-news-wrapper{
+    display: flex;
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    top: -150px;
+    margin-bottom: -6em;
+    z-index: 2;
+    text-align: left;
+    width: 1920px;
+    text-transform: uppercase;
+}
+.faetured-news-wrapper p{
+    color: #fff;
+    font-family: Source Sans Pro,Arial,Helvetica;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#title-news{
+    width: 500px;
+    padding-left: 115px;
+}
+.list-card{
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.news-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    height: 422px;
+    width: 333.78px;
+    margin-bottom: 1em;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.thumb-card{
+    color: transparent;
+    padding: 0;
+    background-image: url(https://cdn.ncwest.com/cms/41cc5ymm/201109-an-news-thumb-unshackled-fate-new-zone.jpg);
+    height: 166.88px;
+    border-bottom-color: transparent;
+    width: 333.75px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+}
+.content-wrapper{
+    padding: 0;
+    padding: 20px;
+    height: 200.31px;
+    width: 333.75;
+    text-transform: none;
+    font-size: 24px;
+    color: white;
+}
+.news-card:hover{
+    padding: 0;
+    top: -10px;
+    background-color: rgb(6, 5, 15);
+}
+.content-wrapper:hover{
+    border-top: 5px green solid;
+}
+.separator{
+    color: rgb(2, 161, 2);
+    font-size: 17px;
+}
+.news-card-amazon{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    height: auto;
+    position: relative;
+    display: inline-block;
+    height: 422px;
+    width: 333.78px;
+    margin-bottom: 1em;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.thumb-card-amazon{
+    color: transparent;
+    padding: 0;
+    background-image: url(https://cdn.ncwest.com/cms/vfhnj50f/solorius-weapon-selection-box_internal_launcher_400x200.jpg);
+    height: 166.88px;
+    border-bottom-color: transparent;
+    width: 333.75px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+}
+.banner-classic{
+    display: inline-block;
+    background: #3e92a7;
+    margin-bottom: 10px;
+    height: 14px;
+    width: auto;
+    border-radius: 2px;
+    padding: 2px;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    margin-right: 5px;
+    font-family: AdelonBook,'Times New Roman', Times, serif;
+}
+.update-amazon{
+    color: rgb(253, 253, 253);
+    font-size: 17px;
+}
+.news-card-amazon:hover{
+    padding: 0;
+    top: -10px;
+    background-color: rgb(6, 5, 15);
+}
+.thumb-card-sales{
+    color: transparent;
+    padding: 0;
+    background-image: url(https://cdn.ncwest.com/cms/k1ul23nq/230116-anc-news-thumb-daeva-pass-s20-black-tiger-1.jpg);
+    height: 166.88px;
+    border-bottom-color: transparent;
+    width: 333.75px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+}
+.update-sales{
+    color: rgb(141, 43, 43);
+    font-size: 17px;
+}
+.thumb-card-sale{
+    color: transparent;
+    padding: 0;
+    background-image: url(https://cdn.ncwest.com/cms/ayyg0fa5/181106-an-news-thumb-nov-store-update.jpg);
+    height: 166.88px;
+    border-bottom-color: transparent;
+    width: 333.75px;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+}
+.all-news-btn{
+    display: flex;
+    color: #fff;
+    font-size: 20px;
+    margin: 2em auto;
+    justify-content: center;
+}
+.all-news-btn:hover{
+    color: #74a7e6;
+}
+.full-video-bg{
+    position: relative;
+    width: 1920px;
+}
+.logo-aionClassic{
+    position: relative;
+    width: 690px;
+    height: auto;
+    z-index: 148;
+    left: 31.5%;
+    bottom: 900px;
+}
+.content-aion-classic{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 24px;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%);
+    bottom: 800px;
+}
+.content-aion-classic p{
+    font-size: 24px;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    width: 650px;
+    max-width: 100%;
+    margin: 0 auto;
+    line-height: 1.4;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%);
+}
+.btn-playFree{
+    display: flex;
+    margin-top: 45PX;
+    background: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/desktop/classic/v2/btn_main_01.png) no-repeat 50% 100%;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.block-theme-aion{
+    display: flex;
+    margin-top: 20px;
+}
+.faq-server-aion{
+    position: relative;
+    background-image: url(https://cdn.ncwest.com/cms/hwck3lpp/210802-tile-half-anc-server-merge-notice.jpg);
+    margin-left: 30px;
+    height: 600px;
+    width: 905px;
+    bottom: 480px;
+    border-radius: 10px;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    color: #fff;
+    cursor: pointer;
+}
+.faq-server-aion h1{
+    font-size: 50px;
+    width: 805px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.faq-server-aion p{
+    font-size: 18px;
+    padding-left: 100px;
+}
+.btn-learn-aion a{
+    font-size: 20px;
+    color: #fff;
+}
+.btn-learn-aion{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 275px;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.faq-server-aion:hover h1{
+    color: white;
+    border-radius: 10px;
+    background: webkit-gradient( linear, left,top,right top,from(180deg,#b79e70 0,rgba(183, 159, 113, 0)));
+    background: linear-gradient(180deg,#b79e70 0,rgba(183, 159, 113, 0));
+    filter:
+    progid:DXImageTransform.Microsoft.gradient(startColorstr=grad-gold,endColorstr=grad-gold,GradientType=0);
+}
+.faq-server-aion:hover .btn-learn-aion{
+    background: #3ad1dd;
+}
+.buy-coin{
+    position: relative;
+    background-image: url(https://cdn.ncwest.com/cms/o0wgflel/181024-tile-half-black-cloud-coin_cp0.jpg);
+    height: 600px;
+    width: 905px;
+    bottom: 480px;
+    margin: 0 20px;
+    border-radius: 10px;
+    font-family: Source Sans Pro,Arial,Helvetica;
+    color: #fff;
+    cursor: pointer;
+}
+.buy-coin h1{
+    font-size: 50px;
+    width: 805px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 100px;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.buy-coin p{
+    font-size: 18px;
+    padding-left: 100px;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.buy-coin:hover h1{
+    color: white;
+    border-radius: 10px;
+    background: webkit-gradient( linear, left,top,right top,from(180deg,#b79e70 0,rgba(183, 159, 113, 0)));
+    background: linear-gradient(180deg,#b79e70 0,rgba(183, 159, 113, 0));
+    filter:
+    progid:DXImageTransform.Microsoft.gradient(startColorstr=grad-gold,endColorstr=grad-gold,GradientType=0);
+}
+.buy-coin:hover .btn-learn-aion{
+    background: #3ad1dd;
+}
+.communoty-aion{
+    display: flex;
+    margin: 0 20px;
+    margin-top: -460px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-image: url(https://cdn.ncwest.com/cms/dnff2jhz/181024-title-full-aion-community.jpg);
+    height: 600px;
+    width: 1880px;
+    color: #fff;
+    text-shadow: 1px 1px rgb(0 0 0 / 80%);
+    flex-direction: column;
+    cursor: pointer;
+}
+.communoty-aion h2{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 50px;
+}
+.communoty-aion p{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 18px;
+}
+.btn-communoty-aion{
+    margin-top: 40px;
+    margin-left: 100px;
+    display: block;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-left: 100px;
+    width: 275px;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    text-shadow: 1px 1px rgb(0 0 0 / 80%)
+}
+.content-communoty-aion{
+    height: 600px;
+    width: 1000px;
+}
+.communoty-aion:hover .content-communoty-aion{
+    border-radius: 10px;
+    background: webkit-gradient( linear, left,top,right top,from(180deg,#b79e70 0,rgba(183, 159, 113, 0)));
+    background: linear-gradient(90deg,#b79e70 0,rgba(183, 159, 113, 0));
+    filter:
+    progid:DXImageTransform.Microsoft.gradient(startColorstr=grad-gold,endColorstr=grad-gold,GradientType=0);
+}
+.communoty-aion:hover .btn-communoty-aion{
+    background-color: #3ad1dd;
+}
+.play-free-now{
+    display: flex;
+    background-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/global/footer/footer-bg.jpg);
+    height: 670px;
+    width: 1920px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid #269ca6;
+}
+.btn-play-free-aion{
+    color: #fff;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    border-radius: 10px;
+    font-size: 36px;
+    height: 106px;
+    width: 410px;
+    text-align: center;
+    background-image: url(https://cdn.ncwest.com/aion/01242023-DAEC1A83EB9E8666/images/global/play-free-cta-lg.png);
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+.btn-play-free-aion:hover{
+    background: #2d7ff8;
+    background: -webkit-gradient(linear,left top,left bottom,from(#9bc1fa),to(#1d418d));
+    background: linear-gradient(135deg,#9bc1fa 0,#2d7ff8);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=clear-blue,endColorstr=windows-blue,GradientType=0);
+    border-color: #2d7ff8;
+}
+.social{
+    padding-top: 100px;
+    color: #ffffff;
+    font-family: le-monde-livre-std,trajan-pro-3,serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.social a{
+    display: inline-block;
+    margin: 0 2.5px;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 7.5px;
+    position: relative;
+    text-align: center;
+    line-height: 65px;
+}
+.social-fb:hover{
+    background: #3b5998;
+}
+.social-twitter:hover{
+    background: #1da1f2;
+}
+.social-twitch:hover{
+    background: #6441a4;
+}
+.social-youtube:hover{
+    background: red;
+}
+#footer{
+    background-color: #000;
+    text-align: center;
+}
+.aion-dp{
+    padding: 70px 0 40px;
+}
+.esrb{
+    display: block;
+    margin: 50px auto 50px;
+}
+.ncsoft-dp-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+    height: 28px;
+    width: 1840px;
+    background: black;
+    border-top: 1px solid #9c8e7f;
+}
+.ncsoft-dp-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ncsoft-dp-logo img{
+    display: block;
+    height: 20px;
+    width: 37.31;
+}
+#logo-plaync{
+    display: block;
+    height: 25px;
+    width: 92.3px;
+    margin: 0 20px;
+}
+.droit-legal{
+    font-family: Rubik,sans-serif;
+    font-size: 14px;
+    color: #9c8e7f;
+}
+.ncsoft-dp-right a{
+    padding: 0 16px;
+    color: #9c8e7f;
+}
+.ncsoft-dp-right a:hover{
+    color: #3ad1dd;
+}
