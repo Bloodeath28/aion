@@ -9,102 +9,100 @@
         <meta name="description" content="Aion vous offre un MMORPG époustouflant où vous découvrirez d'abondantes aventures en solo, des quêtes de groupe épiques et intrigantes, des donjons stimulants et des batailles épiques !">
     </head>
     <body>
-        <header id="nav1">
-            <section class="nav-gauche">
+        <header>
+            <nav aria-label="navLeft" id="left">
                 <a href="https://us.ncsoft.com/en-us">
                     <img src="/Source/Fonts/Img/Logo/logo-nc.svg" alt="Logo ncsoft">
                 </a>
-                <article class="btn-games">
-                    <button>Games
-                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 15" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <polyline points="6 9 12 15 18 9"></polyline>
-                        </svg>
-                        <div class="sous-onglet">
-                            <a href="https://lineage2m.plaync.com/naeu" id="l2m">
-                                <div class="logo-l2m">
-                                    <img src="/Source/Fonts/Img/Logo/logo-l2m.png" alt="">
-                                </div>
-                                <div class="titre-l2m">
-                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path>
-                                        </svg>
-                                        <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                                            <line x1="8" y1="21" x2="16" y2="21"></line>
-                                            <line x1="12" y1="17" x2="12" y2="21"></line>
-                                        </svg>
-                                    <span>Lineage2M</span>
-                                </div>
-                            </a>
-                            <a href="https://www.guildwars2.com/fr/?_ga=2.39992874.909279731.1674283743-492628649.1674065814&_gl=1*t4te9c*_ga*NDkyNjI4NjQ5LjE2NzQwNjU4MTQ.*_ga_TPNWXPF7Y3*MTY3NDQxODM1NC4yMS4xLjE2NzQ0MTg5MTguMC4wLjA." id="gw2">
-                                <div class="logo-gw2">
-                                    <img src="/Source/Fonts/Img/Logo/logo-gw2.png" alt="">
-                                </div>
-                                <div class="titre-gw2">
+                <button id="btn_games">Games
+                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 15" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                    <div class="sous-onglet">
+                        <a href="https://lineage2m.plaync.com/naeu" id="l2m">
+                            <div class="logo-l2m">
+                                <img src="/Source/Fonts/Img/Logo/logo-l2m.png" alt="">
+                            </div>
+                            <div class="titre-l2m">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 320 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path>
+                                    </svg>
                                     <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                         <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
                                         <line x1="8" y1="21" x2="16" y2="21"></line>
                                         <line x1="12" y1="17" x2="12" y2="21"></line>
                                     </svg>
-                                    <span>Guild Wars 2</span>
-                                </div>
-                            </a>
-                            <a href="https://www.bladeandsoul.com/en-us" id="bs">
-                                <div class="logo-bs">
-                                    <img src="/Source/Fonts/Img/Logo/logo-bns.png" alt="">
-                                </div>
-                                <div class="titre-bs">
-                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                                        <line x1="8" y1="21" x2="16" y2="21"></line>
-                                        <line x1="12" y1="17" x2="12" y2="21"></line>
-                                    </svg>
-                                    <span>Blade & Soul</span>
-                                </div>
-                            </a>
-                            <a href="https://www.aiononline.com/en-us" id="aion">
-                                <div class="logo-aion">
-                                    <img src="/Source/Fonts/Img/Logo/logo-aion.png" alt="">
-                                </div>
-                                <div class="titre-aion">
-                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                                        <line x1="8" y1="21" x2="16" y2="21"></line>
-                                        <line x1="12" y1="17" x2="12" y2="21"></line>
-                                    </svg>
-                                    <span>Aion</span>
-                                </div>
-                            </a>
-                            <a href="https://www.guildwars.com/fr/" id="gw">
-                                <div class="logo-gw">
-                                    <img src="/Source/Fonts/Img/Logo/logo-gw.png" alt="">
-                                </div>
-                                <div class="titre -gw">
-                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                                        <line x1="8" y1="21" x2="16" y2="21"></line>
-                                        <line x1="12" y1="17" x2="12" y2="21"></line>
-                                    </svg>
-                                    <span>Guild Wars</span>
-                                </div>
-                            </a>
-                            <a href="https://www.lineage2.com/en-us?_ga=2.138015288.909279731.1674283743-492628649.1674065814&_gl=1*1rdwdle*_ga*NDkyNjI4NjQ5LjE2NzQwNjU4MTQ.*_ga_TPNWXPF7Y3*MTY3NDQxODM1NC4yMS4xLjE2NzQ0MjAxNzcuMC4wLjA." id="l2">
-                                <div class="logo-l2">
-                                    <img src="/Source/Fonts/Img/Logo/logo-l2.png" alt="">
-                                </div>
-                                <div class="titre-l2">
-                                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                                        <line x1="8" y1="21" x2="16" y2="21"></line>
-                                        <line x1="12" y1="17" x2="12" y2="21"></line>
-                                    </svg>
-                                    <span>Lineage II</span>
-                                </div>
-                            </a>
-                        </div>
-                    </button>
-                </article>
-            </section>
+                                <span>Lineage2M</span>
+                            </div>
+                        </a>
+                        <a href="https://www.guildwars2.com/fr/?_ga=2.39992874.909279731.1674283743-492628649.1674065814&_gl=1*t4te9c*_ga*NDkyNjI4NjQ5LjE2NzQwNjU4MTQ.*_ga_TPNWXPF7Y3*MTY3NDQxODM1NC4yMS4xLjE2NzQ0MTg5MTguMC4wLjA." id="gw2">
+                            <div class="logo-gw2">
+                                <img src="/Source/Fonts/Img/Logo/logo-gw2.png" alt="">
+                            </div>
+                            <div class="titre-gw2">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                                <span>Guild Wars 2</span>
+                            </div>
+                        </a>
+                        <a href="https://www.bladeandsoul.com/en-us" id="bs">
+                            <div class="logo-bs">
+                                <img src="/Source/Fonts/Img/Logo/logo-bns.png" alt="">
+                            </div>
+                            <div class="titre-bs">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                                <span>Blade & Soul</span>
+                            </div>
+                        </a>
+                        <a href="https://www.aiononline.com/en-us" id="aion">
+                            <div class="logo-aion">
+                                <img src="/Source/Fonts/Img/Logo/logo-aion.png" alt="">
+                            </div>
+                            <div class="titre-aion">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                                <span>Aion</span>
+                            </div>
+                        </a>
+                        <a href="https://www.guildwars.com/fr/" id="gw">
+                            <div class="logo-gw">
+                                <img src="/Source/Fonts/Img/Logo/logo-gw.png" alt="">
+                            </div>
+                            <div class="titre -gw">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                                <span>Guild Wars</span>
+                            </div>
+                        </a>
+                        <a href="https://www.lineage2.com/en-us?_ga=2.138015288.909279731.1674283743-492628649.1674065814&_gl=1*1rdwdle*_ga*NDkyNjI4NjQ5LjE2NzQwNjU4MTQ.*_ga_TPNWXPF7Y3*MTY3NDQxODM1NC4yMS4xLjE2NzQ0MjAxNzcuMC4wLjA." id="l2">
+                            <div class="logo-l2">
+                                <img src="/Source/Fonts/Img/Logo/logo-l2.png" alt="">
+                            </div>
+                            <div class="titre-l2">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                                <span>Lineage II</span>
+                            </div>
+                        </a>
+                    </div>
+                </button>
+            </nav>
             <section id="nav-droite">
                 <article class="btn-globe">
                     <button>
@@ -195,7 +193,7 @@
         </header>
         <main id="next">
             <section class="navbar2">
-                <nav id="in-nav">
+                <nav aria-label="second_nav" id="in-nav">
                     <article class="logo-aion-nav">
                         <a href="/index.html">
                             <img src="/Source/Fonts/Img/Logo/AN_logo-full-color_footer-1x.png" alt="">

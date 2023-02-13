@@ -12,7 +12,7 @@
 body{
     background-color: #000;
 }
-#nav1{
+header{
     width: 100%;
     height: 33px;
     background-color: black;
@@ -24,19 +24,19 @@ body{
     justify-content: space-between;
     border-bottom: 0.1px solid #494949;
 }
-.nav-gauche{
+#left{
     display: flex;
     align-items: center;
     flex-direction: row;
 }
-.nav-gauche img{
+#left>img ,#left>a>img{
     width: 29.84px;
     margin: auto 50px auto 40px;
 }
-.btn-games{
+#btn_games{
     position: relative;
 }
-.btn-games button{
+#btn_games{
     color: #9c8e7f;
     background-color: transparent;
     border: none;
@@ -44,10 +44,10 @@ body{
     font-size: 14px;
     height: 33px;
 }
-.btn-games button .sous-onglet{
+#btn_games .sous-onglet{
     display: none;
 }
-.btn-games button:hover .sous-onglet{
+#btn_games:hover .sous-onglet{
     display: block;
     display: flex;
     max-width: none;
