@@ -194,7 +194,7 @@ header{
     width: 172px;
     height: 30.67px;
 }
-.btn-globe button{
+#btn_globe{
     color: #9c8e7f;
     background-color: transparent;
     border: none;
@@ -202,13 +202,13 @@ header{
     position: relative;
     height: 33px;
 }
-.btn-globe{
+#btn_globe{
     position: relative;
 }
-.btn-globe button .sous-globe{
+#btn_globe .sous-globe{
     display: none;
 }
-.btn-globe button:hover .sous-globe{
+#btn_globe:hover .sous-globe{
     display: flex;
     max-width: none;
     left: -85px;
